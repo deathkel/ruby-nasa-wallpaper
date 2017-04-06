@@ -4,6 +4,7 @@ Quick hack in Ruby for Mac OS X! It sets the [NASA image of the day](http://www.
 Install it like so:
 
 ```bash
+brew install wget //curl尝试失败改用wget
 cd ~/Pictures
 git clone https://github.com/bartolsthoorn/ruby-nasa-wallpaper.git
 mv ruby-nasa-wallpaper/nasa-fetch.rb nasa-fetch.rb
